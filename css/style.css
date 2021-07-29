@@ -1,0 +1,43 @@
+/* fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*body{
+    margin: 0;
+}
+body{
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+}
+/* common style  */
+.orange-color{
+    color: #E76F51;
+}
+.margin{
+    margin-top: 160px;
+}
+/* header section  */
+.header-section{
+    height: 698px;
+    background-color: #264653;
+    padding-left: 140px;
+    padding-right: 140px;
+    margin-bottom: 64px;
+}
+.purchase-btn{
+    background-color: #E76F51;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 9px 25px;
+}
+
+/* main section  */
+.gray-scale{
+    filter: grayscale(100%);
+}
+.signin-background{
+    background-image: url(images/background-3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
